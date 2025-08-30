@@ -21,37 +21,57 @@ The website image is currently stored in the client directory under the filename
 
 ## 📂 Project Structure
 ```
-E-Com-Website/
-│── client/
-│   ├── public/
-│   │   └── images/
+WEBSITEC/
+├── client/
+│   ├── node_modules/
 │   ├── src/
 │   │   ├── assets/
+│   │   │   └── products/
+│   │   │       ├── dell-xps-13.png
+│   │   │       ├── iphone-14.png
+│   │   │       ├── leather-wallet.png
+│   │   │       ├── levis-jeans.png
+│   │   │       ├── macbook-air-m2.png
+│   │   │       ├── nike-shoes.png
+│   │   │       ├── samsung-galaxy-s23.png
+│   │   │       └── sony-headphones.png
 │   │   ├── components/
+│   │   │   └── ProductCard.jsx
 │   │   ├── context/
+│   │   │   └── CartContext.jsx
 │   │   ├── pages/
-│   │   ├── products.js
+│   │   │   ├── CartPage.jsx
+│   │   │   ├── CheckoutPage.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── ProductDetail.jsx
+│   │   │   ├── Signin.jsx
+│   │   │   └── Signup.jsx
 │   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
+│   │   ├── index.css
+│   │   ├── index.html
+│   │   ├── main.jsx
+│   │   └── products.js
+│   ├── demo.png
 │   ├── package.json
+│   ├── package-lock.json
 │   ├── postcss.config.cjs
-│   └── tailwind.config.cjs
+│   ├── tailwind.config.cjs
+│   └── README.md
 │
 ├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   ├── server.js
-│   └── package.json
+│   ├── node_modules/
+│   ├── index.js
+│   ├── products.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
 │
-├── .env
 ├── .gitignore
+├── package.json
+├── package-lock.json
 ├── README.md
-└── package.json
+└── TODO.md
+
 ```
 ---
 
