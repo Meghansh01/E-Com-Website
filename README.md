@@ -20,7 +20,7 @@ The website image is currently stored in the client directory under the filename
 ---
 
 ## 📂 Project Structure
-(''')
+(```)
 E-Com-Website/
 │── client/
 │   ├── public/
@@ -52,7 +52,7 @@ E-Com-Website/
 ├── .gitignore
 ├── README.md
 └── package.json
-(''')
+(```)
 ---
 
 ##🌐 Deployment
