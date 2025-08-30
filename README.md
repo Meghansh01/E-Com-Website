@@ -3,8 +3,8 @@
 A modern, responsive **React + Tailwind CSS** e-commerce front-end.  
 Features product listings, cart management, checkout flow, dark/light mode, and toast notifications.  
 
-The website image is currently stored in the client directory under the filename demo.png.
-##📷 Screenshot
+
+## 📷 Screenshot
 ![demo page](https://raw.githubusercontent.com/Meghansh01/E-Com-Website/master/client/demo.png) 
 
 ---
