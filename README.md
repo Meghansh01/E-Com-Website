@@ -3,7 +3,7 @@
 A modern, responsive **React + Tailwind CSS** e-commerce front-end.  
 Features product listings, cart management, checkout flow, dark/light mode, and toast notifications.  
 
-![Demo Screenshot](./src/assets/products/demo.png) <!-- replace with actual screenshot -->
+The website image is currently stored in the client directory under the filename demo.png.
 
 ---
 
@@ -20,23 +20,38 @@ Features product listings, cart management, checkout flow, dark/light mode, and 
 ---
 
 ## 📂 Project Structure
-client/
-├─ public/
-│ └─ images/ # public assets
-├─ src/
-│ ├─ assets/ # product images & logos
-│ ├─ components/ # reusable UI (Header, ProductCard, Sidebar, Hero...)
-│ ├─ context/ # CartContext for global state
-│ ├─ pages/ # Home, ProductDetail, CartPage, Checkout, Signup, Signin
-│ ├─ products.js # product data with imported images
-│ ├─ App.jsx # routes & main layout
-│ └─ main.jsx # entry + toaster
-├─ index.html
-├─ package.json
-├─ tailwind.config.cjs
-├─ postcss.config.cjs
-└─ README.md
-
+E-Com-Website/
+├─ client/
+│ ├─ public/
+│ │ └─ images/
+│ ├─ src/
+│ │ ├─ assets/
+│ │ ├─ components/
+│ │ ├─ context/
+│ │ ├─ pages/
+│ │ ├─ products.js
+│ │ ├─ App.jsx
+│ │ └─ main.jsx
+│ ├─ index.html
+│ ├─ package.json
+│ ├─ tailwind.config.cjs
+│ ├─ postcss.config.cjs
+│ └─ README.md
+│
+├─ server/
+│ ├─ config/
+│ ├─ controllers/
+│ ├─ middleware/
+│ ├─ models/
+│ ├─ routes/
+│ ├─ utils/
+│ ├─ server.js
+│ ├─ package.json
+│ └─ .env
+│
+├─ .gitignore
+├─ README.md
+└─ package.json
 ---
 
 ##🌐 Deployment
