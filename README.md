@@ -21,37 +21,37 @@ The website image is currently stored in the client directory under the filename
 
 ## 📂 Project Structure
 E-Com-Website/
-├─ client/
-│ ├─ public/
-│ │ └─ images/
-│ ├─ src/
-│ │ ├─ assets/
-│ │ ├─ components/
-│ │ ├─ context/
-│ │ ├─ pages/
-│ │ ├─ products.js
-│ │ ├─ App.jsx
-│ │ └─ main.jsx
-│ ├─ index.html
-│ ├─ package.json
-│ ├─ tailwind.config.cjs
-│ ├─ postcss.config.cjs
-│ └─ README.md
+│── client/
+│   ├── public/
+│   │   └── images/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── products.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.cjs
+│   └── tailwind.config.cjs
 │
-├─ server/
-│ ├─ config/
-│ ├─ controllers/
-│ ├─ middleware/
-│ ├─ models/
-│ ├─ routes/
-│ ├─ utils/
-│ ├─ server.js
-│ ├─ package.json
-│ └─ .env
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── server.js
+│   └── package.json
 │
-├─ .gitignore
-├─ README.md
-└─ package.json
+├── .env
+├── .gitignore
+├── README.md
+└── package.json
+
 ---
 
 ##🌐 Deployment
