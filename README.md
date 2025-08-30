@@ -77,7 +77,7 @@ WEBSITEEC/
 ```
 ---
 
-##🌐 Deployment
+## 🌐 Deployment
 
 This project is deployment-ready ✅.
 You can deploy easily on platforms like:
@@ -104,7 +104,7 @@ GitHub Pages
 
 ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: React, Vite, Tailwind CSS
 
